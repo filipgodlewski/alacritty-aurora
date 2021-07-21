@@ -1,0 +1,61 @@
+# All the credit goes to ray-x, who created the color scheme for Neovim
+# For more, see references
+# This is only my humble take on these colors to match them with Alacritty
+
+# Project:    Aurora
+# Version:    0.1.0
+# Repository: https://github.com/filipgodlewski/aurora-alacritty
+# License:    MIT
+# References:
+#   https://github.com/alacritty/alacritty
+#   https://github.com/ray-x/aurora
+
+colors:
+  primary:
+    background: "#211c2f"
+    foreground: "#ffbbd6"
+    dim_foreground: "#f19bb6"
+  cursor:
+    text: "#211c2f"
+    cursor: "#ecc48d"
+  vi_mode_cursor:
+    text: "#211c2f"
+    cursor: "#addb67"
+  selection:
+    text: "#211c2f"
+    background: "#282C34"
+  search:
+    matches:
+      foreground: CellBackground
+      background: "#A1EFE4"
+    bar:
+      background: "#54CED6"
+      foreground: "#ffbbd6"
+  normal:
+    black: "#30234f"
+    red: "#ff5874"
+    green: "#addb67"
+    yellow: "#ecc48d"
+    blue: "#be9af7"
+    magenta: "#FD9720"
+    cyan: "#A1EFE4"
+    white: "#645775"
+  bright:
+    blacl: "#343047"
+    red: "#ec5f67"
+    green: "#d7ffaf"
+    yellow: "#fbec9f"
+    blue: "#6690c4"
+    magenta: "#ffbe00"
+    cyan: "#54CED6"
+    white: "#e7d3fb"
+  dim:
+    black: "#141425"
+    red: "#ac3f27"
+    green: "#9dd067"
+    yellow: "#bBa03A"
+    blue: "#6189bb"
+    magenta: "#ffce51"
+    cyan: "#0fb9e0"
+    white: "#d7d7ff"
+
